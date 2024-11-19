@@ -46,8 +46,8 @@ The primary goal is to enhance form usability while adhering to modern design st
 2. Open the `index.html` file in your browser to view the form.
 
 ### Live Demo:
-Once published via GitHub Pages, you can directly access the live version here:
-[Live Demo](https://yourusername.github.io/survey-form)
+You can directly access the live version here:
+[Live Demo](https://atakankarakastr.github.io/survey-form/)
 
 ---
 
@@ -73,8 +73,8 @@ Once published via GitHub Pages, you can directly access the live version here:
 ---
 
 ## Live Demo
-The project can be previewed online (if published):
-[Live Demo](https://yourusername.github.io/survey-form)
+The project can be previewed online:
+[Live Demo](https://atakankarakastr.github.io/survey-form/)
 
 ---
 
