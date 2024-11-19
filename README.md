@@ -41,7 +41,7 @@ The primary goal is to enhance form usability while adhering to modern design st
 ### Local Usage:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/survey-form.git
+   git clone https://github.com/atakankarakastr/survey-form.git
    ```
 2. Open the `index.html` file in your browser to view the form.
 
