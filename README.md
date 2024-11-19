@@ -5,7 +5,7 @@ This is a responsive survey form created as part of the **FreeCodeCamp Responsiv
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://github.com/atakankarakastr/survey-form). *(Update the link with your GitHub Pages URL once deployed.)*
+You can view the live demo of the project [here](atakankarakastr.github.io/survey-form). *(Update the link with your GitHub Pages URL once deployed.)*
 
 ## Features
 
