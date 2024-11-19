@@ -82,5 +82,4 @@ The project can be previewed online (if published):
 Created by **Atakan Karakaş** as part of the freeCodeCamp certification program.  
 
 Feel free to connect or share feedback:
-- **Email**: [atakankarakastr@gmail.com](mailto:atakankarakastr@gmail.com)
-- **LinkedIn**: [Atakan Karakaş's Profile](https://www.linkedin.com/in/atakan-karaka%C5%9F-052457334/)
+**Email**: [atakankarakastr@gmail.com](mailto:atakankarakastr@gmail.com)
