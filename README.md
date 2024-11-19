@@ -1,31 +1,27 @@
 
-# Survey Form
+# Responsive Survey Form - FreeCodeCamp Project
 
-This is a responsive survey form created as part of the **FreeCodeCamp Responsive Web Design Certification**. The project demonstrates the use of HTML5 and CSS3 to build an accessible and user-friendly form.
+This is a responsive survey form created as part of the **FreeCodeCamp Responsive Web Design Certification**. The project demonstrates the use of HTML5 and CSS3 to build an accessible, interactive, and user-friendly form.
 
 ## Live Demo
 
-You can view the live demo of the project [here](atakankarakastr.github.io/survey-form).
+Check out the live demo of the project [here](https://atakankarakastr.github.io/survey-form/).
 
 ## Features
 
-- **Responsive Design:** The layout adapts seamlessly to different screen sizes, ensuring usability on both desktop and mobile devices.
-- **Clean and Modern UI:** The form uses a visually appealing color scheme with soft mint and royal blue tones, offering a professional and welcoming look.
-- **Interactive Form Elements:**
-  - Focus effects on input fields and buttons enhance usability.
-  - Placeholder text guides users in filling out the form.
-- **Accessible Design:**
-  - Proper use of labels and placeholders for improved accessibility.
-  - Semantic HTML elements, such as `fieldset` and `legend`, enhance structure and usability for screen readers.
-- **Validation:** Required fields ensure complete and accurate user input.
+- **Responsive Design:** Adapts seamlessly to desktop and mobile devices.
+- **Modern UI:** Clean, professional color scheme with interactive elements.
+- **Accessibility:** Semantic HTML structure for screen readers and better usability.
+- **Interactive Elements:**
+  - Focus effects for improved form interaction.
+  - Validation for required fields to ensure complete input.
 
 ## Technologies Used
 
-- **HTML5**
-- **CSS3**
-  - Flexbox for layout.
-  - Media queries for responsiveness.
-  - Transition effects for interactivity.
+- **HTML5:** Semantic tags for structure and accessibility.
+- **CSS3:**
+  - Flexbox and media queries for responsive layouts.
+  - Transition effects for smooth interactivity.
 
 ## How to Run the Project Locally
 
@@ -39,6 +35,6 @@ You can view the live demo of the project [here](atakankarakastr.github.io/surve
    ```
 3. Open the `index.html` file in your browser to view the project.
 
-## Acknowledgments
+## Certification
 
-This project was created as part of the **FreeCodeCamp Responsive Web Design Certification**. You can view my certification [here](https://www.freecodecamp.org/certification/atakankarakas/responsive-web-design).
+This project is part of the **FreeCodeCamp Responsive Web Design Certification**. You can view my certification [here](https://www.freecodecamp.org/certification/atakankarakas/responsive-web-design).
