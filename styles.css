@@ -1,0 +1,144 @@
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the page content */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0FFF0; /* Soft Mint Background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+}
+
+/* Title and description styling */
+#title {
+    font-size: 2.8em;
+    color: #4169E1; /* Royal Blue */
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+#description {
+    font-size: 1.2em;
+    color: #333333; /* Dark Charcoal */
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Form styling */
+#survey-form {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff; /* White Background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00BFFF; /* Deep Sky Blue Border */
+}
+
+/* Fieldset and legend styling */
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4169E1; /* Royal Blue */
+    margin-bottom: 10px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333; /* Dark Charcoal */
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #4169E1; /* Royal Blue */
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #F0FFF0; /* Soft Mint */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #FF4500; /* Sunset Orange Focus */
+    box-shadow: 0 0 8px rgba(255, 69, 0, 0.5); /* Sunset Orange Glow */
+}
+
+/* Placeholder text color */
+input::placeholder,
+textarea::placeholder {
+    color: #aaaaaa;
+}
+
+/* Radio and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit button styling */
+#submit {
+    background-color: #4169E1; /* Royal Blue */
+    color: #ffffff; /* White Text */
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#submit:hover {
+    background-color: #FF4500; /* Sunset Orange Hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+#submit:focus {
+    outline: none;
+    background-color: #FF4500; /* Sunset Orange Focus */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #survey-form {
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+        margin-bottom: 12px;
+    }
+}

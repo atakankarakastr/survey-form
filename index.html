@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey form to help us improve our services.</p>
+    <form id="survey-form">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label id="name-label" for="name">Name:</label>
+            <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label id="email-label" for="email">Email Address:</label>
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <label id="number-label" for="number">Age:</label>
+            <input
+                id="number"
+                name="age"
+                type="number"
+                min="1"
+                max="120"
+                placeholder="Enter your age"
+                required
+            >
+        </fieldset>
+
+        <!-- Gender Selection -->
+        <fieldset>
+            <legend>Gender</legend>
+
+            <label for="dropdown">Gender:</label>
+            <select id="dropdown" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+
+        <!-- Participation Level -->
+        <fieldset>
+            <legend>Participation Level</legend>
+
+            <p>Please select your participation level:</p>
+            <label for="participation-high">
+                <input
+                    id="participation-high"
+                    type="radio"
+                    name="participation-level"
+                    value="high"
+                    required
+                >
+                High
+            </label>
+            <label for="participation-medium">
+                <input
+                    id="participation-medium"
+                    type="radio"
+                    name="participation-level"
+                    value="medium"
+                >
+                Medium
+            </label>
+            <label for="participation-low">
+                <input
+                    id="participation-low"
+                    type="radio"
+                    name="participation-level"
+                    value="low"
+                >
+                Low
+            </label>
+        </fieldset>
+
+        <!-- Interests Section -->
+        <fieldset>
+            <legend>Interests</legend>
+
+            <p>What are your interests? (Select all that apply)</p>
+            <label for="interest-technology">
+                <input
+                    id="interest-technology"
+                    type="checkbox"
+                    name="interests"
+                    value="technology"
+                >
+                Technology
+            </label>
+            <label for="interest-science">
+                <input
+                    id="interest-science"
+                    type="checkbox"
+                    name="interests"
+                    value="science"
+                >
+                Science
+            </label>
+            <label for="interest-sports">
+                <input
+                    id="interest-sports"
+                    type="checkbox"
+                    name="interests"
+                    value="sports"
+                >
+                Sports
+            </label>
+        </fieldset>
+
+        <!-- Additional Comments -->
+        <fieldset>
+            <legend>Additional Comments</legend>
+
+            <p>Any additional comments?</p>
+            <textarea
+                id="comments"
+                name="comments"
+                placeholder="Write your comments here"
+            ></textarea>
+        </fieldset>
+
+        <!-- Submit Button -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
