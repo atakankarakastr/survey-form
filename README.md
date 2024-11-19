@@ -1,7 +1,7 @@
 
 # Survey Form
 
-This project is a **responsive survey form** created as part of the [freeCodeCamp](https://www.freecodecamp.org/) **Responsive Web Design Certification**. It showcases key web development principles, including semantic HTML structure, responsive design, and accessible forms.
+This project is a **responsive survey form** created as part of the [freeCodeCamp](https://www.freecodecamp.org/certification/atakankarakas/responsive-web-design) **Responsive Web Design Certification**. It showcases key web development principles, including semantic HTML structure, responsive design, and accessible forms.
 
 ## Table of Contents
 - [Overview](#overview)
